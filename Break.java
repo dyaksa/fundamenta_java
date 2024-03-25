@@ -2,14 +2,11 @@ public class Break {
     public static void main(String[] args) {
         var counter = 1;
 
-        while (true) {
+        do {
             System.out.println("Bilangan Ke - " + counter);
             counter++;
 
-            if(counter > 10) {
-                break;
-            }
-        }
+        } while (counter <= 10);
 
         System.out.println("Perulangan Selesai");
     }

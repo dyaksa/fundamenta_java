@@ -1,6 +1,6 @@
 public class OperasiBoolean {
     public static void main(String[] args) {
-        var absen = 70;
+        var absen = 75;
         var nilai = 80;
 
         boolean lulusAbsen = absen >= 75;

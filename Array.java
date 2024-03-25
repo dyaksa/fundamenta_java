@@ -38,5 +38,12 @@ public class Array {
         System.out.println(members[0][1]);
 
         System.out.println(members[0].length);
+
+        String[] names = new String[5];
+        names[0] = "Dyaksa";
+        names[1] = "Jauharuddin";
+        names[2] = "Nour";
+        names[3] = "Ali";
+        names[4] = "Farhan";
     }
 }
